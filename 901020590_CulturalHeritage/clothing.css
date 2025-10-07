@@ -1,0 +1,63 @@
+body{
+  font-family: Arial, sans-serif;
+  background: fdfaf6;
+  color #333;
+  margin: 0;
+  padding: 1rem;
+}
+
+h1{
+  text-align: center;
+  background: #003366;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.clothing grid{
+ display-grid;
+ grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+ gap: 1.5rem;
+ paddimg: 0 1rem;
+}
+
+.clothing-item{
+ background: white;
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ padding: 1rem;
+ text-align: center;
+ transition: transform 03.s;
+}
+
+.clothing-item img{
+ width: 20%;
+ border-radius: 6px;
+ transition: transform 0.3s;
+}
+
+.clothing-item:hover img{
+ transform: scale(1.05);
+}
+
+.clothing-item h2{
+ margin: 0.8rem 0 0.3rem;
+}
+
+.clothing-item a{
+ display: inline-block;
+ margin-top: 0.5rem;
+ color: #003366;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+.clothing-item a: hover{
+ text-decoration: underline;
+}
+
+footer{
+ background: #003366;
+ color: white;
+ text-align: center;
+ margin-bottom: 2rem;
+}

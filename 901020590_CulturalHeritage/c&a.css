@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  paddding: 0;
+  background: #fdfaf6;
+  color: #333;
+}
+ header {
+  background: #003366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.crafts-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.craft-card{
+  background: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.craft-crad img{
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.craft-card a{
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #0003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.craft-card a:hover{
+  text-decoration: underline;
+}
+
+footer{
+  background: #003366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
